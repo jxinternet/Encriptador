@@ -1,0 +1,17 @@
+- Sitio Web
+- Campo para el texto que va a ser encriptado/desencriptado: Text o Input
+- Un botón para encriptar
+- Un boton para desencriptar
+- Un botón que copie el texto encriptado/desencriptado  
+- Área para mostrar texto encriptado/desencriptado
+
+Las llaves de encriptación serán:
+"a" se convierte en "ai"
+"e" se convierte en "enter"
+"i" se convierte en "imes"
+"o" se convierte en "ober"
+"u" se convierte en "ufat"
+
+- Debe funcionar SOLO con letras minúsculas
+- No deben ser utilizadas letras con acentos ni caracteres especiales. 
+- Debe crear un patrón que no incluya letras ni numeros y si detecta algo no alfanumerico que arroje una sweetalert

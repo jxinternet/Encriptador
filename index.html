@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+</head>
+<body>
+
+<div class="contenedor">
+
+    <div class="contenedor-izq">
+        <div class="contenedorlimpiar">
+            <input type="button" value="Limpiar" id="limpiar">
+            <textarea  id="textareainput" placeholder="Ingrese el texto aquí" rows="12" ></textarea>
+        </div>
+        <p><i class="fa fa-exclamation-circle" style="color:rgb(25, 0, 255);font-size: 125%;"></i> Ingresar solo letras minúsculas y sin acentos</p>
+        <div class="botones">
+            <input type="button" value="Encriptar" id="encriptar">    
+            <input type="button" value="Desencriptar" id="desencriptar">
+        </div>
+    </div>
+
+
+    <div class="contenedor-der">
+        <div class="espacioblanco">
+            <p id="titulo">Ningún Mensaje fue Encontrado</p>
+            <p id="subtitulo">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <textarea id="textareaoutput" rows="12"></textarea>
+            <div class="tooltip">
+                <input type="button" value ="Copiar" id="copiar"><span class="tooltiptext" >Copiar al portapapeles</span></input>    
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="programacion.js"></script>
+</body>
+</html>
